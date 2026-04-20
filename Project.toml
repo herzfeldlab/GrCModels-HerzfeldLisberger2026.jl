@@ -1,0 +1,32 @@
+name = "GrCModels"
+uuid = "b6f6baf3-389c-43ef-820f-f4bcc2439da6"
+version = "0.1.0"
+authors = ["David J. Herzfeld <herzfeldd@gmail.com>"]
+
+[deps]
+BlackBoxOptim = "a134a8b2-14d6-55f6-9291-3336d3ab0209"
+Clarabel = "61c947e1-3e6d-4ee4-985a-eec8c727bd6e"
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+NonNegLeastSquares = "b7351bd1-99d9-5c5d-8786-f205a815c4d7"
+Optim = "429524aa-4258-5aef-a3af-852621145aeb"
+ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
+PythonPlot = "274fc56d-3b97-40fa-a1cd-1b4a50311bf9"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+
+[compat]
+BlackBoxOptim = ">=0.6"
+Clarabel = ">=0.7"
+ForwardDiff = ">=1.0.0"
+JuMP = "1.29.4"
+LinearAlgebra = "1.12.0"
+NonNegLeastSquares = "0.4.1"
+Optim = ">=0.13.0"
+ProgressMeter = "1.11.0"
+PythonPlot = "1.0.6"
+Random = "1.11.0"
+Statistics = "1.11.1"
+StatsBase = ">=0.24.0"
