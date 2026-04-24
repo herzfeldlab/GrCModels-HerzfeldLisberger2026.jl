@@ -4,6 +4,7 @@ using Statistics
 using StatsBase
 using PythonPlot
 using LinearAlgebra
+using ProgressMeter
 
 include("sampling.jl")
 include("interface.jl");
