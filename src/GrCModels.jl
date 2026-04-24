@@ -3,7 +3,7 @@ module GrCModels
 using Statistics
 using StatsBase
 using PythonPlot
-
+using LinearAlgebra
 
 include("sampling.jl")
 include("interface.jl");
